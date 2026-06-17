@@ -7,8 +7,8 @@ package logger_test
 import (
 	"context"
 
-	"openpitrix.io/logger"
-	"openpitrix.io/logger/ctxutil"
+	"github.com/codefuture-io/logger"
+	"github.com/codefuture-io/logger/ctxutil"
 )
 
 func Example() {

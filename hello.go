@@ -11,8 +11,8 @@ import (
 	"context"
 	"fmt"
 
-	"openpitrix.io/logger"
-	"openpitrix.io/logger/ctxutil"
+	"github.com/codefuture-io/logger"
+	"github.com/codefuture-io/logger/ctxutil"
 )
 
 func main() {

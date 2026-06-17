@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"openpitrix.io/logger/ctxutil"
+	"github.com/codefuture-io/logger/ctxutil"
 )
 
 func TestLogger(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"openpitrix.io/logger/ctxutil"
+	"github.com/codefuture-io/logger/ctxutil"
 )
 
 type tLogger struct {

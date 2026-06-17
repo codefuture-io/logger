@@ -8,7 +8,7 @@ go:
 - '1.11'
 - 'tip'
 
-go_import_path: openpitrix.io/logger
+go_import_path: github.com/codefuture-io/logger
 
 script:
 - env GO111MODULE=on go test ./...

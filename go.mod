@@ -1,12 +1,17 @@
-// Copyright 2018 The OpenPitrix Authors. All rights reserved.
-// Use of this source code is governed by a Apache license
-// that can be found in the LICENSE file.
+module github.com/codefuture-io/logger
 
-module openpitrix.io/logger
+go 1.26.3
+
+godebug default=go1.26.3
+
+require (
+	github.com/stretchr/testify v1.11.1
+	google.golang.org/grpc v1.81.1
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/stretchr/testify v1.2.2
-	google.golang.org/grpc v1.15.0
+	golang.org/x/sys v0.46.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

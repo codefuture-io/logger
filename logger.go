@@ -14,7 +14,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"openpitrix.io/logger/ctxutil"
+	"github.com/codefuture-io/logger/ctxutil"
 )
 
 var (
